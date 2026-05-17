@@ -1,0 +1,6 @@
+Experiment,Hidden Layers,Activation,Learning Rate,Batch Size,Train Accuracy (%),Test Accuracy (%),Final Loss
+Baseline,"[64, 32]",relu,0.001,32,99.75,97.75,0.0108
+Deeper Network,"[128, 64, 32]",relu,0.001,32,99.69,98.0,0.0002
+Higher LR,"[64, 32]",relu,0.01,32,99.56,97.75,0.0001
+Tanh Activation,"[64, 32]",tanh,0.001,32,99.06,98.25,0.0357
+Large Batch,"[64, 32]",relu,0.001,128,98.44,98.5,0.0468
